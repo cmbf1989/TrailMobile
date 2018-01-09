@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TrailMobile</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_names">Submeter</string>
+    <string name="palavra_passe">Palavra-passe</string>
+    <string name="utilizador">Utilizador</string>
+    <string name="Geral">Geral</string>
+    <string name ="Guardar">Guardar</string>
+    <string name ="Cancelar">Cancelar</string>
+</resources>

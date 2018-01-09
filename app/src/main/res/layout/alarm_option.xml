@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="horizontal"
+android:layout_width="fill_parent"
+android:layout_height="100dp"
+android:baselineAligned="false"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="true"
+        android:id="@+id/lineareopts"
+        android:focusableInTouchMode="false"
+        android:focusable="false"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:paddingRight="10dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Intervalo"
+            android:id="@+id/textView4"
+            android:background="@drawable/labelmedium_blue"
+            android:textColor="#FFFFFF"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_marginLeft="15dp"/>
+
+        <NumberPicker
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:id="@+id/gps_interval"
+            android:scrollIndicators="top|bottom"
+            android:visibility="visible"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@drawable/inputtextright_blue_stroke"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

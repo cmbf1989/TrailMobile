@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="?android:attr/listPreferredItemHeight"
+                android:padding="6dip"
+                android:orientation="horizontal">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="0dp"
+        android:weightSum="1"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/icon"
+            android:id="@+id/trial_name"
+            android:text="Trial Name"
+            android:layout_alignBaseline="@+id/icon"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.4"
+            android:background="@drawable/labelmedium_blue"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/icon"
+            android:id="@+id/trial_description"
+            android:text="Descrição"
+            android:layout_alignBaseline="@+id/icon"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.6"
+            android:paddingLeft="5dp"
+            android:background="@drawable/inputtextright_blue_stroke"/>
+    </LinearLayout>
+
+</RelativeLayout>

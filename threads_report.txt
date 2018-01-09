@@ -1,0 +1,386 @@
+"ClearcutLoggerApiImpl@6265" prio=5 waiting
+  java.lang.Thread.State: WAITING
+	 blocks ClearcutLoggerApiImpl@6265
+	  at java.lang.Object.wait(Object.java:-1)
+	  at java.lang.Thread.parkFor$(Thread.java:1220)
+	  - locked <0x1a5b> (a java.lang.Object)
+	  at sun.misc.Unsafe.park(Unsafe.java:299)
+	  at java.util.concurrent.locks.LockSupport.park(LockSupport.java:158)
+	  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2013)
+	  at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1078)
+	  at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:806)
+	  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1036)
+	  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1098)
+	  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	  at ji.run(:com.google.android.gms.DynamiteModulesB:126)
+	  at java.lang.Thread.run(Thread.java:818)
+
+"OkHttp Dispatcher@4806" prio=5 waiting
+  java.lang.Thread.State: WAITING
+	 blocks OkHttp Dispatcher@4806
+	  at java.lang.Object.wait(Object.java:-1)
+	  at java.lang.Thread.parkFor$(Thread.java:1220)
+	  - locked <0x1a3a> (a java.lang.Object)
+	  at sun.misc.Unsafe.park(Unsafe.java:299)
+	  at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:198)
+	  at java.util.concurrent.SynchronousQueue$TransferStack.awaitFulfill(SynchronousQueue.java:430)
+	  at java.util.concurrent.SynchronousQueue$TransferStack.transfer(SynchronousQueue.java:332)
+	  at java.util.concurrent.SynchronousQueue.poll(SynchronousQueue.java:911)
+	  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1036)
+	  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1098)
+	  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	  at java.lang.Thread.run(Thread.java:818)
+
+"androidmapsapi-appenvironment-1@5411" prio=5 waiting
+  java.lang.Thread.State: WAITING
+	 blocks androidmapsapi-appenvironment-1@5411
+	  at java.lang.Object.wait(Object.java:-1)
+	  at java.lang.Thread.parkFor$(Thread.java:1220)
+	  - locked <0x1a55> (a java.lang.Object)
+	  at sun.misc.Unsafe.park(Unsafe.java:299)
+	  at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:198)
+	  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2053)
+	  at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1090)
+	  at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:806)
+	  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1036)
+	  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1098)
+	  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	  at java.lang.Thread.run(Thread.java:818)
+
+"GAC_Executor[0]@6239" prio=5 waiting
+  java.lang.Thread.State: WAITING
+	 blocks GAC_Executor[0]@6239
+	  at java.lang.Object.wait(Object.java:-1)
+	  at java.lang.Thread.parkFor$(Thread.java:1220)
+	  - locked <0x1a59> (a java.lang.Object)
+	  at sun.misc.Unsafe.park(Unsafe.java:299)
+	  at java.util.concurrent.locks.LockSupport.park(LockSupport.java:158)
+	  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2013)
+	  at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:410)
+	  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1036)
+	  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1098)
+	  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	  at ru.run(:com.google.android.gms.DynamiteModulesB:17)
+	  at java.lang.Thread.run(Thread.java:818)
+
+"GAC_Executor[1]@6243" prio=5 waiting
+  java.lang.Thread.State: WAITING
+	 blocks GAC_Executor[1]@6243
+	  at java.lang.Object.wait(Object.java:-1)
+	  at java.lang.Thread.parkFor$(Thread.java:1220)
+	  - locked <0x1a5a> (a java.lang.Object)
+	  at sun.misc.Unsafe.park(Unsafe.java:299)
+	  at java.util.concurrent.locks.LockSupport.park(LockSupport.java:158)
+	  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2013)
+	  at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:410)
+	  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1036)
+	  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1098)
+	  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	  at ru.run(:com.google.android.gms.DynamiteModulesB:17)
+	  at java.lang.Thread.run(Thread.java:818)
+
+"androidmapsapi-scpm-1@6561" prio=5 waiting
+  java.lang.Thread.State: WAITING
+	 blocks androidmapsapi-scpm-1@6561
+	  at java.lang.Object.wait(Object.java:-1)
+	  at java.lang.Thread.parkFor$(Thread.java:1220)
+	  - locked <0x1a5d> (a java.lang.Object)
+	  at sun.misc.Unsafe.park(Unsafe.java:299)
+	  at java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:198)
+	  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2053)
+	  at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1090)
+	  at java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:806)
+	  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1036)
+	  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1098)
+	  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	  at java.lang.Thread.run(Thread.java:818)
+
+"androidmapsapi-ula-1@5803" prio=5 waiting
+  java.lang.Thread.State: WAITING
+	 blocks androidmapsapi-ula-1@5803
+	  at java.lang.Object.wait(Object.java:-1)
+	  at java.lang.Thread.parkFor$(Thread.java:1220)
+	  - locked <0x1a58> (a java.lang.Object)
+	  at sun.misc.Unsafe.park(Unsafe.java:299)
+	  at java.util.concurrent.locks.LockSupport.park(LockSupport.java:158)
+	  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2013)
+	  at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:410)
+	  at java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1036)
+	  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1098)
+	  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	  at java.lang.Thread.run(Thread.java:818)
+
+"OkHttp ConnectionPool@6554" daemon prio=5 waiting
+  java.lang.Thread.State: WAITING
+	 blocks OkHttp ConnectionPool@6554
+	  at java.lang.Object.wait(Object.java:-1)
+	  at com.android.okhttp.ConnectionPool.performCleanup(ConnectionPool.java:319)
+	  - locked <0x1a5c> (a com.android.okhttp.ConnectionPool)
+	  at com.android.okhttp.ConnectionPool.runCleanupUntilPoolIsEmpty(ConnectionPool.java:256)
+	  at com.android.okhttp.ConnectionPool.access$000(ConnectionPool.java:59)
+	  at com.android.okhttp.ConnectionPool$1.run(ConnectionPool.java:102)
+	  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	  at java.lang.Thread.run(Thread.java:818)
+
+"main@4098" prio=5 runnable
+  java.lang.Thread.State: RUNNABLE
+	  at com.example.trailmobile.app.Classes.ConnectionManager$2.onResponse(ConnectionManager.java:79)
+	  at retrofit2.ExecutorCallAdapterFactory$ExecutorCallbackCall$1$1.run(ExecutorCallAdapterFactory.java:68)
+	  at android.os.Handler.handleCallback(Handler.java:739)
+	  at android.os.Handler.dispatchMessage(Handler.java:95)
+	  at android.os.Looper.loop(Looper.java:158)
+	  at android.app.ActivityThread.main(ActivityThread.java:7224)
+	  at java.lang.reflect.Method.invoke(Method.java:-1)
+	  at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1230)
+	  at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1120)
+
+"VolleyCacheDispatcher@5177" prio=5 waiting
+  java.lang.Thread.State: WAITING
+	 blocks VolleyCacheDispatcher@5177
+	  at java.lang.Object.wait(Object.java:-1)
+	  at java.lang.Thread.parkFor$(Thread.java:1220)
+	  - locked <0x1a4f> (a java.lang.Object)
+	  at sun.misc.Unsafe.park(Unsafe.java:299)
+	  at java.util.concurrent.locks.LockSupport.park(LockSupport.java:158)
+	  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2013)
+	  at java.util.concurrent.PriorityBlockingQueue.take(PriorityBlockingQueue.java:510)
+	  at gl.run(:com.google.android.gms.DynamiteModulesB:91)
+
+"VolleyNetworkDispatcher@5178" prio=5 waiting
+  java.lang.Thread.State: WAITING
+	 blocks VolleyNetworkDispatcher@5178
+	  at java.lang.Object.wait(Object.java:-1)
+	  at java.lang.Thread.parkFor$(Thread.java:1220)
+	  - locked <0x1a50> (a java.lang.Object)
+	  at sun.misc.Unsafe.park(Unsafe.java:299)
+	  at java.util.concurrent.locks.LockSupport.park(LockSupport.java:158)
+	  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2013)
+	  at java.util.concurrent.PriorityBlockingQueue.take(PriorityBlockingQueue.java:510)
+	  at gs.run(:com.google.android.gms.DynamiteModulesB:91)
+
+"VolleyNetworkDispatcher@5179" prio=5 waiting
+  java.lang.Thread.State: WAITING
+	 blocks VolleyNetworkDispatcher@5179
+	  at java.lang.Object.wait(Object.java:-1)
+	  at java.lang.Thread.parkFor$(Thread.java:1220)
+	  - locked <0x1a51> (a java.lang.Object)
+	  at sun.misc.Unsafe.park(Unsafe.java:299)
+	  at java.util.concurrent.locks.LockSupport.park(LockSupport.java:158)
+	  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2013)
+	  at java.util.concurrent.PriorityBlockingQueue.take(PriorityBlockingQueue.java:510)
+	  at gs.run(:com.google.android.gms.DynamiteModulesB:91)
+
+"VolleyNetworkDispatcher@5181" prio=5 waiting
+  java.lang.Thread.State: WAITING
+	 blocks VolleyNetworkDispatcher@5181
+	  at java.lang.Object.wait(Object.java:-1)
+	  at java.lang.Thread.parkFor$(Thread.java:1220)
+	  - locked <0x1a52> (a java.lang.Object)
+	  at sun.misc.Unsafe.park(Unsafe.java:299)
+	  at java.util.concurrent.locks.LockSupport.park(LockSupport.java:158)
+	  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2013)
+	  at java.util.concurrent.PriorityBlockingQueue.take(PriorityBlockingQueue.java:510)
+	  at gs.run(:com.google.android.gms.DynamiteModulesB:91)
+
+"VolleyNetworkDispatcher@5184" prio=5 waiting
+  java.lang.Thread.State: WAITING
+	 blocks VolleyNetworkDispatcher@5184
+	  at java.lang.Object.wait(Object.java:-1)
+	  at java.lang.Thread.parkFor$(Thread.java:1220)
+	  - locked <0x1a53> (a java.lang.Object)
+	  at sun.misc.Unsafe.park(Unsafe.java:299)
+	  at java.util.concurrent.locks.LockSupport.park(LockSupport.java:158)
+	  at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2013)
+	  at java.util.concurrent.PriorityBlockingQueue.take(PriorityBlockingQueue.java:510)
+	  at gs.run(:com.google.android.gms.DynamiteModulesB:91)
+
+"FinalizerDaemon@6728" daemon prio=5 waiting
+  java.lang.Thread.State: WAITING
+	 blocks FinalizerDaemon@6728
+	  at java.lang.Object.wait(Object.java:-1)
+	  at java.lang.Object.wait(Object.java:423)
+	  at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:101)
+	  - locked <0x1a4c> (a java.lang.ref.ReferenceQueue)
+	  at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:72)
+	  at java.lang.Daemons$FinalizerDaemon.run(Daemons.java:200)
+	  at java.lang.Thread.run(Thread.java:818)
+
+"OkHttp ConnectionPool@4861" daemon prio=5 waiting
+  java.lang.Thread.State: WAITING
+	 blocks OkHttp ConnectionPool@4861
+	  at java.lang.Object.wait(Object.java:-1)
+	  at okhttp3.ConnectionPool$1.run(ConnectionPool.java:65)
+	  - locked <0x1a4d> (a okhttp3.ConnectionPool)
+	  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	  at java.lang.Thread.run(Thread.java:818)
+
+"java.lang.ProcessManager@5092" daemon prio=5 waiting
+  java.lang.Thread.State: WAITING
+	 blocks java.lang.ProcessManager@5092
+	  at java.lang.Object.wait(Object.java:-1)
+	  at java.lang.ProcessManager.waitForMoreChildren(ProcessManager.java:140)
+	  - locked <0x1a4e> (a java.util.HashMap)
+	  at java.lang.ProcessManager.watchChildren(ProcessManager.java:105)
+	  at java.lang.ProcessManager.access$000(ProcessManager.java:40)
+	  at java.lang.ProcessManager$1.run(ProcessManager.java:58)
+
+"FinalizerWatchdogDaemon@6727" daemon prio=5 waiting
+  java.lang.Thread.State: WAITING
+	 blocks FinalizerWatchdogDaemon@6727
+	  at java.lang.Object.wait(Object.java:-1)
+	  at java.lang.Daemons$FinalizerWatchdogDaemon.waitForObject(Daemons.java:270)
+	  - locked <0x1a4b> (a java.lang.Daemons$FinalizerWatchdogDaemon)
+	  at java.lang.Daemons$FinalizerWatchdogDaemon.run(Daemons.java:242)
+	  at java.lang.Thread.run(Thread.java:818)
+
+"Okio Watchdog@4893" daemon prio=5 waiting
+  java.lang.Thread.State: WAITING
+	 blocks Okio Watchdog@4893
+	  at java.lang.Object.wait(Object.java:-1)
+	  at okio.AsyncTimeout.awaitTimeout(AsyncTimeout.java:311)
+	  - locked <0x1306> (a java.lang.Class)
+	  at okio.AsyncTimeout.access$000(AsyncTimeout.java:40)
+	  at okio.AsyncTimeout$Watchdog.run(AsyncTimeout.java:286)
+
+"Okio Watchdog@6551" daemon prio=5 waiting
+  java.lang.Thread.State: WAITING
+	 blocks Okio Watchdog@6551
+	  at java.lang.Object.wait(Object.java:-1)
+	  at com.android.okhttp.okio.AsyncTimeout.awaitTimeout(AsyncTimeout.java:311)
+	  - locked <0xc4> (a java.lang.Class)
+	  at com.android.okhttp.okio.AsyncTimeout.access$000(AsyncTimeout.java:40)
+	  at com.android.okhttp.okio.AsyncTimeout$Watchdog.run(AsyncTimeout.java:286)
+
+"ReferenceQueueDaemon@6729" daemon prio=5 waiting
+  java.lang.Thread.State: WAITING
+	 blocks ReferenceQueueDaemon@6729
+	  at java.lang.Object.wait(Object.java:-1)
+	  at java.lang.Daemons$ReferenceQueueDaemon.run(Daemons.java:162)
+	  - locked <0xc3d> (a java.lang.Class)
+	  at java.lang.Thread.run(Thread.java:818)
+
+"Thread-1896@4117" prio=5 runnable
+  java.lang.Thread.State: RUNNABLE
+	  at android.net.LocalSocketImpl.accept(LocalSocketImpl.java:-1)
+	  at android.net.LocalSocketImpl.accept(LocalSocketImpl.java:331)
+	  at android.net.LocalServerSocket.accept(LocalServerSocket.java:90)
+	  at com.android.tools.fd.runtime.Server$SocketServerThread.run(Server.java:150)
+	  at java.lang.Thread.run(Thread.java:818)
+
+"Thread-1917@5514" prio=5 runnable
+  java.lang.Thread.State: RUNNABLE
+	  at android.os.MessageQueue.nativePollOnce(MessageQueue.java:-1)
+	  at android.os.MessageQueue.next(MessageQueue.java:323)
+	  at android.os.Looper.loop(Looper.java:143)
+	  at maps.O.b.run(Unknown Source:0)
+	  at maps.O.n.run(Unknown Source:0)
+
+"Thread-1919@5528" prio=5 runnable
+  java.lang.Thread.State: RUNNABLE
+	  at android.os.MessageQueue.nativePollOnce(MessageQueue.java:-1)
+	  at android.os.MessageQueue.next(MessageQueue.java:323)
+	  at android.os.Looper.loop(Looper.java:143)
+	  at maps.O.b.run(Unknown Source:0)
+	  at maps.O.n.run(Unknown Source:0)
+
+"Thread-1921@5530" prio=5 runnable
+  java.lang.Thread.State: RUNNABLE
+	  at android.os.MessageQueue.nativePollOnce(MessageQueue.java:-1)
+	  at android.os.MessageQueue.next(MessageQueue.java:323)
+	  at android.os.Looper.loop(Looper.java:143)
+	  at maps.O.b.run(Unknown Source:0)
+	  at maps.O.n.run(Unknown Source:0)
+
+"Thread-1922@5531" prio=5 runnable
+  java.lang.Thread.State: RUNNABLE
+	  at android.os.MessageQueue.nativePollOnce(MessageQueue.java:-1)
+	  at android.os.MessageQueue.next(MessageQueue.java:323)
+	  at android.os.Looper.loop(Looper.java:143)
+	  at maps.O.b.run(Unknown Source:0)
+	  at maps.O.n.run(Unknown Source:0)
+
+"GLThread 1933@5798" prio=5 waiting
+  java.lang.Thread.State: WAITING
+	 blocks GLThread 1933@5798
+	  at java.lang.Object.wait(Object.java:-1)
+	  at maps.V.y$f.f(Unknown Source:0)
+	  - locked <0x1a57> (a maps.V.y$g)
+	  at maps.V.y$f.run(Unknown Source:0)
+
+"Thread-1918@5527" prio=5 runnable
+  java.lang.Thread.State: RUNNABLE
+	  at android.os.MessageQueue.nativePollOnce(MessageQueue.java:-1)
+	  at android.os.MessageQueue.next(MessageQueue.java:323)
+	  at android.os.Looper.loop(Looper.java:143)
+	  at maps.O.b.run(Unknown Source:0)
+
+"Thread-1920@5529" prio=5 runnable
+  java.lang.Thread.State: RUNNABLE
+	  at android.os.MessageQueue.nativePollOnce(MessageQueue.java:-1)
+	  at android.os.MessageQueue.next(MessageQueue.java:323)
+	  at android.os.Looper.loop(Looper.java:143)
+	  at maps.O.b.run(Unknown Source:0)
+
+"ibs@5534" prio=5 runnable
+  java.lang.Thread.State: RUNNABLE
+	  at android.os.MessageQueue.nativePollOnce(MessageQueue.java:-1)
+	  at android.os.MessageQueue.next(MessageQueue.java:323)
+	  at android.os.Looper.loop(Looper.java:143)
+	  at maps.O.d.run(Unknown Source:0)
+
+"HeapTaskDaemon@6726" daemon prio=5 waiting for monitor entry
+  java.lang.Thread.State: BLOCKED
+	  at dalvik.system.VMRuntime.runHeapTasks(VMRuntime.java:-1)
+	  at java.lang.Daemons$HeapTaskDaemon.run(Daemons.java:370)
+	  at java.lang.Thread.run(Thread.java:818)
+
+"androidmapsapi-ulcs-1@5400" prio=5 sleeping
+  java.lang.Thread.State: TIMED_WAITING
+	 blocks androidmapsapi-ulcs-1@5400
+	  at java.lang.Thread.sleep(Thread.java:-1)
+	  at java.lang.Thread.sleep(Thread.java:1031)
+	  - locked <0x1a54> (a java.lang.Object)
+	  at java.lang.Thread.sleep(Thread.java:985)
+	  at maps.ad.av.run(Unknown Source:-1)
+	  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	  at java.lang.Thread.run(Thread.java:818)
+
+"androidmapsapi-ulcs-1@5789" prio=5 sleeping
+  java.lang.Thread.State: TIMED_WAITING
+	 blocks androidmapsapi-ulcs-1@5789
+	  at java.lang.Thread.sleep(Thread.java:-1)
+	  at java.lang.Thread.sleep(Thread.java:1031)
+	  - locked <0x1a56> (a java.lang.Object)
+	  at java.lang.Thread.sleep(Thread.java:985)
+	  at maps.ad.av.run(Unknown Source:-1)
+	  at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+	  at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+	  at java.lang.Thread.run(Thread.java:818)
+
+"Signal Catcher@6725" daemon prio=5 waiting
+  java.lang.Thread.State: WAITING
+	 Incompatible thread state: thread not suspended
+
+"Binder_1@6423" prio=5 runnable
+  java.lang.Thread.State: RUNNABLE
+	 Incompatible thread state: thread not suspended
+
+"Binder_2@6730" prio=5 runnable
+  java.lang.Thread.State: RUNNABLE
+	 Incompatible thread state: thread not suspended
+
+"RenderThread@4854" prio=5 runnable
+  java.lang.Thread.State: RUNNABLE
+	 Incompatible thread state: thread not suspended
+
+"Binder_3@5791" prio=5 runnable
+  java.lang.Thread.State: RUNNABLE
+	 Incompatible thread state: thread not suspended
+
+"hwuiTask1@6268" prio=5 runnable
+  java.lang.Thread.State: RUNNABLE
+	 Incompatible thread state: thread not suspended
+

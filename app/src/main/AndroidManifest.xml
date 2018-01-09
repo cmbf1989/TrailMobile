@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.trailmobile.trailmobile" >
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <application  android:icon="@mipmap/ic_main_icon"
+        android:allowBackup="true"
+        android:name="com.activeandroid.app.Application"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <meta-data android:name="AA_DB_NAME" android:value="trailmobile.db" />
+        <meta-data android:name="AA_DB_VERSION" android:value="1" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDkgJVIsUsVIOy5632xf2A_xmyGx8Tj2o8"/>
+
+        <activity
+            android:name="com.example.trailmobile.app.Views.introActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name="com.example.trailmobile.app.Views.MainMenuActivity"></activity>
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="
+            com.example.trailmobile.app.Models.AppSettings,
+            com.example.trailmobile.app.Models.Athlete,
+            com.example.trailmobile.app.Models.AthleteCategory,
+            com.example.trailmobile.app.Models.AthleteOrganization,
+            com.example.trailmobile.app.Models.EventState,
+            com.example.trailmobile.app.Models.EventType,
+            com.example.trailmobile.app.Models.Gps,
+            com.example.trailmobile.app.Models.GpsTrial,
+            com.example.trailmobile.app.Models.Notification,
+            com.example.trailmobile.app.Models.NotificationType,
+            com.example.trailmobile.app.Models.Organization,
+            com.example.trailmobile.app.Models.TagType,
+            com.example.trailmobile.app.Models.TrailCompetition,
+            com.example.trailmobile.app.Models.TrailEvent,
+            com.example.trailmobile.app.Models.TrialState,
+            com.example.trailmobile.app.Models.TrialType,
+            com.example.trailmobile.app.Models.UserData,
+            com.example.trailmobile.app.Models.UserSettings,
+            com.example.trailmobile.app.Models.UserTag"
+            />
+
+    </application>
+    <service android:enabled="true" android:name=".GpsTracker" />
+</manifest>
